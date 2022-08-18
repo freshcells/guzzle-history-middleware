@@ -1,11 +1,14 @@
 Guzzle History Middleware
 =========================
 
+This is a takeover drop-in fork of https://github.com/csarrazi/guzzle-history-middleware which seems to be abandoned.  
+We left the namespace as `Csa` to assure drop-in replacement.
+
 Installation
 ------------
 
 ```
-composer req csa/guzzle-history-middleware
+composer req freshcells/guzzle-history-middleware
 ```
 
 Upgrade
