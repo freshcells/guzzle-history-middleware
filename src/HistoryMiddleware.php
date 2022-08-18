@@ -21,7 +21,7 @@ use Psr\Http\Message\RequestInterface;
  */
 class HistoryMiddleware
 {
-    private $container;
+    private History $container;
 
     public function __construct(History $container)
     {

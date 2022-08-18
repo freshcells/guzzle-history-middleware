@@ -17,9 +17,10 @@ use GuzzleHttp\Client;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\HandlerStack;
 use GuzzleHttp\Psr7\Response;
+use PHPUnit\Framework\TestCase;
 use Psr\Http\Message\RequestInterface;
 
-class HistoryMiddlewareTest extends \PHPUnit_Framework_TestCase
+class HistoryMiddlewareTest extends TestCase
 {
     public function testMiddleware()
     {
